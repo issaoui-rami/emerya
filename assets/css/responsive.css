@@ -1,0 +1,219 @@
+@media (max-width: 1199px) {
+    .banner-home .row-text-banner {
+        width: 80%;
+    }
+}
+
+@media (max-width: 991px) {
+    .row-navbar-top {
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: -10px;
+    }
+
+    .menu-middle {
+        background: #0098de;
+        position: absolute;
+        top: 8px;
+        z-index: 9;
+        left: 7px;
+    }
+
+    .nav-top .blue-bg {
+        display: none;
+    }
+
+    .content-logo .logo {
+        width: auto;
+        margin: 0 auto;
+    }
+
+    .content-logo {
+        text-align: center;
+    }
+
+    .navbar-top {
+        top: 0;
+    }
+
+    .nav-top {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-end;
+        position: absolute;
+        right: 0;
+        padding: 0;
+        top: inherit;
+        bottom: 0;
+    }
+
+    .box-numero a:after {
+        content: none
+    }
+
+    .lebel-menu {
+        color: #fff;
+        font-size: 13px;
+        margin-top: 3px;
+    }
+
+    .menu-bottom .navbar-toggler {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        padding: 0 5px;
+    }
+
+    .menu-bottom .navbar-toggler-icon {
+        background-image: url(../images/burger-bar.png);
+    }
+
+    .box-numero a {
+        padding-right: 8px;
+    }
+
+    .banner-home .row-text-banner {
+        width: 100%;
+        transform: translate(-50%, -20%);
+    }
+
+    .owl-carousel .owl-item .container-banner img {
+        height: 550px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+    section.section-content .col-image {
+        display: none;
+    }
+    .section-infos {
+        padding: 56px 0;
+    }
+    .col-info .content-box {
+        padding-top: 0;
+    }
+    .section-infos .col-letter {
+        display: flex;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #232323;
+        padding: 0 70px 70px;
+    }
+    .section-infos .col-letter .icon {
+        position: relative;
+        left: inherit;
+        top: 0;
+        transform: inherit;
+    }
+    .section-infos .col-horaires, .section-infos .col-adresse {
+        top: 140px;
+        margin-bottom: 70px;
+    }
+    .section-infos .col-horaires .content-box, .section-infos .col-adresse .content-box {
+        padding: 60px 0;
+    }
+    .section-infos .col-letter .content-box{
+        flex: 1;
+    }
+    .col-logo-footer {
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .col-menu-footer .content-link-menus {
+        justify-content: center !important;
+    }
+    .col-menu-footer .list-menus {
+        width: 33%;
+    }
+    .bas-footer p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        position: relative;
+        background-color: #232323;
+    }
+    .logo-mobile{
+        display: block;
+    }
+    .content-logo .logo, .banner-home .text-banner, .col-logo-footer .logo{
+        display: none;
+    }
+    .col-menu-footer .content-link-menus {
+        display: none !important;
+    }
+    .content-logo {
+        margin-bottom: 50px;
+    }
+    .box-numero {
+        margin-bottom: 10px;
+    }
+    .nav-top {
+        flex-direction: column;
+        margin-top: 10px;
+        bottom: -12%;
+    }
+    .owl-slider .owl-nav {
+        display: none;
+    }
+    .banner-home .row-text-banner {
+        width: 90%;
+        text-align: center;
+    }
+    .owl-carousel .owl-item .container-banner img {
+        height: 410px;
+    }
+    .section-content {
+        padding: 60px 0;
+    }
+    .section-content .content {
+        padding-right: 0;
+    }
+    .title-h2, .box-btn{
+        text-align: center;
+    }
+    .section-infos {
+        padding: 0;
+    }
+    .section-content .content {
+        text-align: justify;
+    }
+    .section-infos .col-letter {
+        display: block;
+        position: relative;
+        background-color: #232323;
+        padding: 20px 25px 70px 0;
+    }
+    .section-infos .col-horaires .content-box, .section-infos .col-adresse .content-box {
+        padding: 60px 20px 0;
+        text-align: center;
+    }
+    .section-infos .col-horaires, .section-infos .col-adresse {
+        top: 0;
+    }
+    .section-infos .col-adresse .content-box .d-flex {
+        display: block !important;
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    .btn-footer-mobile{
+        display: block;
+    }
+    .btn-footer-mobile a {
+        clip-path: polygon(8% 0%, 100% 0%, 93% 100%, 0% 100%);
+        display: inline-block;
+        color: #000000;
+        background-color: #ffffff;
+        padding: 8px 25px;
+        margin-top: 25px;
+    }
+    .btn-footer-mobile a:hover {
+        color: #ffffff;
+        background-color: #0098de;
+    }
+}
